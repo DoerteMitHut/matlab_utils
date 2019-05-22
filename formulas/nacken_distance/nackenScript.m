@@ -7,7 +7,7 @@ l2 = [0,0,1,0.5];
 
 t = colormap;
 
-n = nacken(l1,l2,20*(pi/180),0.5,0.1,true);
+n = nacken(l1,l2,15*(pi/180),norm([l2([1,3]),l2([2,4])])/4,0.03,true);
 
 plot([l2(1),l2(3)],[l2(2),l2(4)],'k-.')
 hold on
