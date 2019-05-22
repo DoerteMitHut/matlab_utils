@@ -1,4 +1,5 @@
 function plotGraph(v,m)
+%%plots graphs, duh
 clf
 hold on
 n_verts = length(v)
