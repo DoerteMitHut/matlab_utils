@@ -24,7 +24,6 @@ ax1 = axes('Parent',f,'XAxisLocation','bottom','YAxisLocation','left','XColor','
 % Systems übernimmt. Außerdem ist dieses Achsensystem auf 'Color'='none'
 % gestellt um zu verhindern, dass die darunterliegende Achse verdeckt wird.
 ax2 = axes('Parent',f,'Position',get(ax1,'Position'),'Color','none','XAxisLocation','top','YAxisLocation','right','XColor','k','YColor','k');
-
 %=========================================================================
                     %|>> HIER WIRD GEPLOTTET <<|%
 %=========================================================================
